@@ -1,5 +1,5 @@
 patch:
-  style/color_scheme: Mac-keyboard-dark
+  style/color_scheme: Mac-keyboard
   style/color_scheme_dark: Mac-keyboard-dark
   style/candidate_list_layout: linear # linear | stack 在这里设置全局侯选词展示方式
   preset_color_schemes/WeChat-keyboard:
@@ -46,47 +46,45 @@ patch:
     hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
     hilited_comment_text_color: 0x999999    # 注解文字高亮
 
-
-# 候选字的字体
-#  "style/font_face": "HarmonyOS Sans SC Medium"
+  # 候选字的字体
   style/font_face: MiSans
-#  "style/font_face": "Microsoft YaHei"
-# 候选字的字体大小
-  style/font_point: 13
-# 候选字横排 true / 纵排 false
+  # 候选字的字体大小
+  style/font_point: 16
+  # 候选字横排 true / 纵排 false
   style/horizontal: true
-# 候选窗不显示内选区 (即拼音区)
+  # 候选窗不显示内选区 (即拼音区)
   style/inline_preedit: true
-# 候选框边框粗细
+  # 候选框边框粗细
   style/layout/border: 1
-# 候选框最小高度
-#  style/layout/min_height: 200
-# 候选框宽度
-  style/layout/min_width: 60
-# 候选字间隔
-  style/layout/candidate_spacing: 0
-# 候选字背景色色块高度
-#  style/layout/hilite_padding: 4
-# 候选字背景色色块宽度
-  style/layout/hilite_padding_x: 6
-# 候选字背景色色块高度
-  style/layout/hilite_padding_y: 3
-# 候选框左右边距
-  style/layout/margin_x: 11
-# 候选框上下边距
-  style/layout/margin_y: 9
-# 边框圆角半径
-  style/layout/corner_radius: 9
-# 候选字背景色块圆角半径
-  style/layout/round_corner: 6
-# 显示托盘图标
+  # 候选框最小高度
+  style/layout/min_height: 250
+  # 候选框宽度
+  style/layout/min_width: 80
+  # 候选字间隔
+  style/layout/candidate_spacing: 2
+  # 候选字背景色色块高度
+  style/layout/hilite_padding: 4
+  # 候选字背景色色块宽度
+  style/layout/hilite_padding_x: 8
+  # 候选字背景色色块高度
+  style/layout/hilite_padding_y: 5
+  # 候选框左右边距
+  style/layout/margin_x: 15
+  # 候选框上下边距
+  style/layout/margin_y: 12
+  # 边框圆角半径
+  style/layout/corner_radius: 10
+  # 候选字背景色块圆角半径
+  style/layout/round_corner: 8
+  # 显示托盘图标
   style/display_tray_icon: true
-# 候选序号格式
+  # 候选序号格式
   style/label_format: "%s"
-# 候选序号大小
-  style/label_font_point: 11
-# 序号和候选字之间的间隔
-  style/layout/hilite_spacing: 4
+  # 候选序号大小
+  style/label_font_point: 13
+  # 序号和候选字之间的间隔
+  style/layout/hilite_spacing: 6
+
 
 # 特定App默认中/英文输入   
   app_options:    
