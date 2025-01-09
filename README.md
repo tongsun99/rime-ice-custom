@@ -1,1 +1,1 @@
-基于https://github.com/iDvel/rime-ice的个人配置
+基于[rime-ice](https://github.com/iDvel/rime-ice)的个人配置
