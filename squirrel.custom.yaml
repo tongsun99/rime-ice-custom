@@ -1,0 +1,124 @@
+patch:
+  style/color_scheme: Mac-keyboard-dark
+  style/color_scheme_dark: Mac-keyboard-dark
+  style/candidate_list_layout: linear # linear | stack 在这里设置全局侯选词展示方式
+  preset_color_schemes/WeChat-keyboard:
+    name: WeChat-keyboard # 配色取自微信键盘
+    author: zsakvo
+    back_color: 0xFFFFFF # 背景
+    border_color: 0xDDDDDD # 边框
+    text_color: 0x424242 #输入区文字颜色
+    hilited_text_color: 0x424242 # 输入区高亮文字颜色
+    hilited_back_color: 0xDDDDDD # 输入区高亮背景
+    hilited_candidate_text_color: 0xFFFFFF # 第一候选项文字颜色
+    hilited_candidate_back_color: 0x75B100 # 第一候选项背景颜色
+    hilited_comment_text_color: 0x999999 # 注解文字高亮
+    candidate_text_color: 0x525252 # 其他候选项文字颜色
+    comment_text_color: 0x999999 # 其他候选项注解文字
+    label_color: 0xcac9c8 # 预选栏编号颜色
+    hilited_label_color: 0xFFFFFF #高亮候选区编号颜色
+  preset_color_schemes/Mac-keyboard:
+    name: Mac-keyboard # 配色取自Mac键盘
+    author: suntong(copied from https://github.com/ssnhd/rime/blob/952c3c6dce15db83e7b447dcf7d9f8d8a702d8d3/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/squirrel.custom.yaml#L50)
+    text_color: 0x424242                    # 拼音行文字颜色
+    back_color: 0xFFFFFF                    # 候选条背景色
+    border_color: 0xFFFFFF                  # 边框色
+    label_color: 0x999999                   # 预选栏编号颜色
+    candidate_text_color: 0x3c3c3c          # 预选项文字颜色
+    comment_text_color: 0x999999            # 拼音等提示文字颜色
+    hilited_text_color: 0x999999            # 高亮拼音 (需要开启内嵌编码)
+    hilited_back_color: 0xD75A00            # 第一候选项背景背景色
+    hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
+    hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
+    hilited_comment_text_color: 0x999999    # 注解文字高亮
+  preset_color_schemes/Mac-keyboard-dark:
+    name: Mac-keyboard-dark
+    author: suntong(copied from https://github.com/ssnhd/rime/blob/952c3c6dce15db83e7b447dcf7d9f8d8a702d8d3/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/squirrel.custom.yaml#L74)
+    text_color: 0x424242                    # 拼音行文字颜色
+    back_color: 0x252a2e                    # 候选条背景色
+    border_color: 0x050505                  # 边框色
+    label_color: 0x999999                   # 预选栏编号颜色
+    candidate_text_color: 0xe9e9ea          # 预选项文字颜色
+    comment_text_color: 0x999999            # 拼音等提示文字颜色
+    hilited_text_color: 0x999999            # 高亮拼音 (需要开启内嵌编码)
+    hilited_back_color: 0xD75A00            # 第一候选项背景背景色
+    hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
+    hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
+    hilited_comment_text_color: 0x999999    # 注解文字高亮
+
+
+# 候选字的字体
+#  "style/font_face": "HarmonyOS Sans SC Medium"
+  style/font_face: MiSans
+#  "style/font_face": "Microsoft YaHei"
+# 候选字的字体大小
+  style/font_point: 13
+# 候选字横排 true / 纵排 false
+  style/horizontal: true
+# 候选窗不显示内选区 (即拼音区)
+  style/inline_preedit: true
+# 候选框边框粗细
+  style/layout/border: 1
+# 候选框最小高度
+#  style/layout/min_height: 200
+# 候选框宽度
+  style/layout/min_width: 60
+# 候选字间隔
+  style/layout/candidate_spacing: 0
+# 候选字背景色色块高度
+#  style/layout/hilite_padding: 4
+# 候选字背景色色块宽度
+  style/layout/hilite_padding_x: 6
+# 候选字背景色色块高度
+  style/layout/hilite_padding_y: 3
+# 候选框左右边距
+  style/layout/margin_x: 11
+# 候选框上下边距
+  style/layout/margin_y: 9
+# 边框圆角半径
+  style/layout/corner_radius: 9
+# 候选字背景色块圆角半径
+  style/layout/round_corner: 6
+# 显示托盘图标
+  style/display_tray_icon: true
+# 候选序号格式
+  style/label_format: "%s"
+# 候选序号大小
+  style/label_font_point: 11
+# 序号和候选字之间的间隔
+  style/layout/hilite_spacing: 4
+
+# 特定App默认中/英文输入   
+  app_options:    
+    com.apple.Terminal:              # 终端
+        ascii_mode: true
+    com.googlecode.iterm2:
+        ascii_mode: true
+        vim_mode: true
+    com.microsoft.VSCode:            # Visual Studio Code
+        ascii_mode: true
+        vim_mode: true
+    com.jetbrains.pycharm:
+        ascii_mode: true 
+        vim_mode: true
+    com.jetbrains.CLion:
+        ascii_mode: true 
+        vim_mode: true
+    md.obsidian:
+        ascii_mode: true
+        vim_mode: true
+    com.zettlr.app:
+        ascii_mode: true
+        vim_mode: true
+    com.raycast.macos:
+        ascii_mode: true
+    com.electron.logseq:
+        ascii_mode: true
+        vim_mode: true
+    org.vim.MacVim:
+        ascii_mode: true
+        vim_mode: true
+    dev.warp.Warp-Stable:
+        ascii_mode: true
+    com.apple.finder:
+        ascii_mode: true
