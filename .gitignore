@@ -1,0 +1,21 @@
+# Only personal configuration belongs in this repository.
+/*
+!/.gitignore
+!/README.md
+!/RIME_SETUP.md
+!/default.custom.yaml
+!/double_pinyin_flypy.custom.yaml
+!/rime_ice.custom.yaml
+!/squirrel.custom.yaml
+!/weasel.custom.yaml
+!/scripts/
+
+# Never version deployed data, models, or learned vocabulary.
+*.gram
+*.bin
+*.userdb/
+*.userdb.*
+installation.yaml
+user.yaml
+build/
+

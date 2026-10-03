@@ -1,6 +1,4 @@
-# double_pinyin_flypy.custom.yaml
 patch:
-  translator/preedit_format: []
   # Local Wanxiang grammar model; settings from rime-ice's grammar recipe.
   grammar:
     language: wanxiang-lts-zh-hans
@@ -12,3 +10,4 @@ patch:
     rear_penalty: -20
   translator/contextual_suggestions: false
   translator/max_homophones: 8
+

@@ -86,37 +86,37 @@ patch:
   style/layout/hilite_spacing: 6
 
 
-# 特定App默认中/英文输入   
-  app_options:    
+# 特定App默认中/英文输入
+  app_options:
     com.apple.Terminal:              # 终端
-        ascii_mode: true
+      ascii_mode: true
     com.googlecode.iterm2:
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     com.jetbrains.pycharm:
-        ascii_mode: true 
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     com.jetbrains.CLion:
-        ascii_mode: true 
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     md.obsidian:
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     com.zettlr.app:
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     com.raycast.macos:
-        ascii_mode: true
+      ascii_mode: true
     com.electron.logseq:
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     org.vim.MacVim:
-        ascii_mode: true
-        vim_mode: true
+      ascii_mode: true
+      vim_mode: true
     dev.warp.Warp-Stable:
-        ascii_mode: true
+      ascii_mode: true
     com.apple.finder:
-        ascii_mode: true
+      ascii_mode: true
